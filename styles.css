@@ -1,7 +1,13 @@
 body {
   font-family: 'Amatic SC', cursive;
+  width: 1000px;
 }
-
+div.topContainer{
+  width: 1000px;
+}
+.container-fluid{
+  width: 1000px;
+}
 h1 {
   transform: rotate(90deg);
   font-size: 9rem;
@@ -11,7 +17,7 @@ h1 {
   font-family: 'Amatic SC', cursive;
   animation: zoomIn;
   animation-duration: 2s;
-
+  width: 600px;
 }
 
 h2 {
@@ -137,12 +143,21 @@ a{
 }
 
 @media screen and (max-width: 600px){
+  .topContainer{
+    width: 600px;
+  }
+  #home{
+    width: 600px;
+  }
   h1{
     transform: rotate(0deg);
     font-size: 50px;
     top: 10px;
-    text-align: center;
+    right: 0px
+    text-align: right;
+    position: absolute;
     margin-right: 0;
+    left: 0%;
   }
   .code6 {
     display: none;
@@ -164,17 +179,14 @@ a{
   }
   .subtitle{
     transform: rotate(0deg);
-    text-align: center;
+    text-align: right;
+    position: absolute;
     font-size: 20px;
     top: 10%;
     right: 0%;
+    left: 0%;
   }
-  .topContainer{
-    width: 600px;
-  }
-  .navbar{
-    width: 1400px;
-  }
+
 }
 @media screen and (max-width: 1400px){
   h1{
