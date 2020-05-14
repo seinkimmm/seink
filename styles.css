@@ -142,7 +142,7 @@ a{
     text-align: right;
     right: 1%;
   }
-  .code-images {
+  /* .code-images {
     width: 58px;
     height: 300px;
   }
@@ -161,5 +161,5 @@ a{
     font-size: 20px;
     top: 10%;
     right: 0%;
-  }
+  } */
 }
