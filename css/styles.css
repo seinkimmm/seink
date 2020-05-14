@@ -135,7 +135,7 @@ a{
   margin-right: 40px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 800px){
   h1{
     transform: rotate(0deg);
     font-size: 60px;
