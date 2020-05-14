@@ -164,7 +164,7 @@ a{
     right: 0%;
   }
 }
-@media (min-width: 2000px){
+/* @media (min-width: 2000px){
   h1{
     transform: rotate(0deg);
     font-size: 45px;
@@ -175,4 +175,4 @@ a{
     width: 150px;
     height: 700px;
   }
-}
+} */
