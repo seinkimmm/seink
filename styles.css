@@ -149,6 +149,7 @@ a{
     width: 1000px;
   }
   h1{
+    width: 1000px;
     transform: rotate(0deg);
     font-size: 100px;
     top: 10px;
@@ -157,13 +158,12 @@ a{
     position: absolute;
     left: 0;
   }
-  .code6 {
-    display: none;
-  }
   .code-images {
     width: 150px;
     height: 450px;
-
+  }
+  .code1{
+    margin-left: 150px;
   }
   .code5{
     clear: right;
@@ -181,6 +181,7 @@ a{
     position: absolute;
     font-size: 20px;
     left: 0%;
+    width: 1150px;
   }
 
 }
