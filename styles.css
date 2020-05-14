@@ -170,18 +170,18 @@ a{
   }
 }
 @media screen and (max-width: 1400px){
-  .subtitle{
-    transform: rotate(0deg);
-    text-align: right;
-    font-size: 20px;
-    top: 10%;
-    right: 0%;
-  }
   h1{
     transform: rotate(0deg);
     font-size: 50px;
     top: 10px;
     text-align: right;
     margin-right: 0;
+  }
+  .subtitle{
+    transform: rotate(0deg);
+    text-align: right;
+    font-size: 20px;
+    top: 10%;
+    right: 0%;
   }
 }
