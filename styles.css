@@ -134,7 +134,7 @@ a{
   margin-right: 40px;
 }
 
-@media (max-width: 500px){
+@media only screen and (max-width: 600px){
   h1{
     transform: rotate(0deg);
     font-size: 60px;
