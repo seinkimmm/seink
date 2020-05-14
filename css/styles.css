@@ -1,7 +1,7 @@
 body {
   font-family: 'Amatic SC', cursive;
 }
-/*
+
 h1 {
   transform: rotate(90deg);
   font-size: 9rem;
@@ -12,7 +12,7 @@ h1 {
   animation: zoomIn;
   animation-duration: 2s;
 
-} */
+}
 
 h2 {
   font-family: 'Amatic SC', cursive;
