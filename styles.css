@@ -167,7 +167,7 @@ a{
   }
 }
 @media screen and (max-width: 992px) {
-  .code6 .code5{
+  .code6 {
     display: none;
   }
 }
