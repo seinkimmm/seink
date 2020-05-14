@@ -169,6 +169,12 @@ a{
     top: 10%;
     right: 0%;
   }
+  .topContainer{
+    width: 600px;
+  }
+  .navbar{
+    width: 1400px;
+  }
 }
 @media screen and (max-width: 1400px){
   h1{
