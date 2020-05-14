@@ -163,7 +163,7 @@ a{
   }
   .subtitle{
     transform: rotate(0deg);
-    text-align: right;
+    text-align: center;
     font-size: 20px;
     top: 10%;
     right: 0%;
