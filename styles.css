@@ -142,8 +142,11 @@ a{
     text-align: right;
     right: 1%;
   }
-  /* .code-images {
-    width: 58px;
+  .code6 {
+    display: none;
+  }
+  .code-images {
+    width: 20px;
     height: 300px;
   }
   .code5{
@@ -161,5 +164,5 @@ a{
     font-size: 20px;
     top: 10%;
     right: 0%;
-  } */
+  }
 }
