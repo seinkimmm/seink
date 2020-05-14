@@ -142,7 +142,7 @@ a{
     font-size: 50px;
     top: 10px;
     text-align: right;
-    right: 1%;
+    margin-right: 0;
   }
   .code6 {
     display: none;
