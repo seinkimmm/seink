@@ -151,11 +151,10 @@ a{
   h1{
     width: 1000px;
     transform: rotate(0deg);
-    font-size: 100px;
+    font-size: 70px;
     top: 10px;
-    right: 0px
+    right: 0px;
     text-align: right;
-    position: absolute;
     left: 0;
   }
   .code-images {
@@ -167,6 +166,7 @@ a{
   }
   .code5{
     clear: right;
+    margin-top: 90px;
   }
   .code6 {
     display: none;
@@ -177,15 +177,16 @@ a{
   }
   .subtitle{
     transform: rotate(0deg);
-    text-align: center;
+    text-align: right;
     position: absolute;
+    top: 84px;
     font-size: 20px;
     left: 0%;
     width: 1150px;
   }
 
 }
-@media screen and (max-width: 1000px){
+/* @media screen and (max-width: 1000px){
   h1{
     width: 2800px;
     transform: rotate(0deg);
@@ -227,4 +228,4 @@ a{
     font-size: 3rem;
     color: black;
   }
-}
+} */
