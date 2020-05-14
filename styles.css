@@ -147,7 +147,7 @@ a{
     display: none;
   }
   .code-images {
-    width: 100px;
+    width: auto;
     height: 300px;
   }
   .code5{
@@ -166,10 +166,5 @@ a{
     font-size: 20px;
     top: 10%;
     right: 0%;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .code6 {
-    display: none;
   }
 }
