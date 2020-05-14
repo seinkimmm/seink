@@ -2,15 +2,14 @@ body {
   font-family: 'Amatic SC', cursive;
   width: 1000px;
 }
-div.topContainer{
-  width: 1000px;
-}
-.container-fluid{
-  width: 1000px;
+
+div {
+width: 100%;
+height: 100%;
 }
 h1 {
   transform: rotate(90deg);
-  font-size: 9rem;
+  font-size: 8rem;
   top: 43%;
   right: 8.2%;
   position: absolute;
@@ -56,7 +55,7 @@ a{
   position: absolute;
   transform: rotate(-90deg);
   top: 350px;
-  margin-left: -100px;
+  margin-left: -140px;
   font-size: 1.7rem;
   animation: zoomIn;
   animation-duration: 2s;
@@ -95,7 +94,7 @@ a{
 }
 
 .code6 {
-  margin-left: 8rem;
+  margin-left: 0rem;
   margin-top: 6rem;
 }
 
@@ -144,27 +143,26 @@ a{
 
 @media screen and (max-width: 600px){
   .topContainer{
-    width: 600px;
+    width: 1000px;
   }
   #home{
-    width: 600px;
+    width: 1000px;
   }
   h1{
     transform: rotate(0deg);
-    font-size: 50px;
+    font-size: 100px;
     top: 10px;
     right: 0px
     text-align: right;
     position: absolute;
-    margin-right: 0;
-    left: 0%;
+    left: 0;
   }
   .code6 {
     display: none;
   }
   .code-images {
-    width: 80px;
-    height: 300px;
+    width: 150px;
+    height: 450px;
 
   }
   .code5{
@@ -179,11 +177,9 @@ a{
   }
   .subtitle{
     transform: rotate(0deg);
-    text-align: right;
+    text-align: center;
     position: absolute;
     font-size: 20px;
-    top: 10%;
-    right: 0%;
     left: 0%;
   }
 
