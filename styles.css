@@ -134,7 +134,8 @@ a{
   margin-right: 40px;
 }
 
-@media only screen and (max-width: 800px){
+@media screen and (orientation: landscape) {
+    @import url('ipad.less');
   h1{
     transform: rotate(0deg);
     font-size: 50px;
@@ -145,10 +146,10 @@ a{
   .code6 {
     display: none;
   }
-  /* .code-images {
+  .code-images {
     width: 100px;
     height: 300px;
-  } */
+  }
   .code5{
     margin-right: 1px;
   }
