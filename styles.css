@@ -134,7 +134,7 @@ a{
   margin-right: 40px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 500px){
   h1{
     transform: rotate(0deg);
     font-size: 60px;
@@ -163,15 +163,3 @@ a{
     right: 0%;
   }
 }
-/* @media (min-width: 2000px){
-  h1{
-    transform: rotate(0deg);
-    font-size: 45px;
-    top: 10px;
-    text-align: center;
-  }
-  .code-images {
-    width: 150px;
-    height: 700px;
-  }
-} */
