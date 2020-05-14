@@ -137,7 +137,7 @@ a{
 @media only screen and (max-width: 600px){
   h1{
     transform: rotate(0deg);
-    font-size: 60px;
+    font-size: 30px;
     top: 10px;
     text-align: right;
     right: 1%;
