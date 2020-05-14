@@ -137,7 +137,7 @@ a{
 @media only screen and (max-width: 800px){
   h1{
     transform: rotate(0deg);
-    font-size: 30px;
+    font-size: 50px;
     top: 10px;
     text-align: right;
     right: 1%;
@@ -146,7 +146,7 @@ a{
     display: none;
   }
   .code-images {
-    width: 80px;
+    width: 100px;
     height: 300px;
   }
   .code5{
