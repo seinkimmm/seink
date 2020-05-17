@@ -2,7 +2,10 @@ body {
   font-family: 'Amatic SC', cursive;
   width: 1000px;
 }
-
+.homeImg{
+  width: 120%;
+  height: 120%;
+}
 div {
 width: 100%;
 height: 100%;
@@ -13,7 +16,7 @@ height: 100%;
 h1 {
   transform: rotate(90deg);
   font-size: 9.5rem;
-  top: 550px;
+  top: 50px;
   right: -30px;
   position: absolute;
   font-family: 'Amatic SC', cursive;
@@ -58,7 +61,7 @@ a{
   position: absolute;
   transform: rotate(-90deg);
   top: 350px;
-  margin-left: -35px;
+  margin-left: -70px;
   font-size: 1.7rem;
   animation: zoomIn;
   animation-duration: 2s;
@@ -67,7 +70,7 @@ a{
   background-color: #fff;
 }
 
-.code-images m
+.code-images {
   width: 170px;
   height: 750px;
   margin-right: 0.5%;
