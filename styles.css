@@ -4,7 +4,7 @@ body {
 }
 .homeImg{
   width: 100%;
-  margin-top: -250px;
+  margin-top: -10%;
   height: 100%;
 }
 div {
@@ -12,9 +12,10 @@ width: 100%;
 height: 100%;
 }
 .topContainer{
-  width: 110%;
+  width: 100%;
+  background-color: white;
 }
-h1 {
+/* h1 {
   transform: rotate(90deg);
   font-size: 9.5rem;
   top: 50px;
@@ -24,7 +25,7 @@ h1 {
   animation: zoomIn;
   animation-duration: 2s;
   width: 900px;
-}
+} */
 
 h2 {
   font-family: 'Amatic SC', cursive;
@@ -45,7 +46,6 @@ p{
 }
 .navbar{
   position: fixed; /* Set the navbar to fixed position */
-  width: 100%;
 }
 .nav-item{
   margin-right: 20px;
@@ -66,9 +66,6 @@ a{
   font-size: 1.7rem;
   animation: zoomIn;
   animation-duration: 2s;
-}
-.topContainer {
-  background-color: #fff;
 }
 
 .code-images {
