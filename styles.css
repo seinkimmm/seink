@@ -17,11 +17,11 @@ height: 100%;
 .first{
   width: 100%;
   display: none;
-  margin-top: -8%;
+  margin-top: -12%;
 }
 .topContainer{
   width: 100%;
-  background: linear-gradient(to top, #fff5fd 30%, #e1f2fb 70%);
+  background: linear-gradient(to right, #fff5fd 50%, #e1f2fb 50%);
 }
 .navbar{
   position:absolute;
