@@ -1,6 +1,6 @@
 body {
-  font-family: 'Amatic SC', cursive;
   width: 100%;
+  font-family: 'Fira Mono', monospace;
 }
 .homeImg{
   width: 100%;
@@ -9,6 +9,13 @@ body {
 }
 h1{
   padding-top: 40px;
+  font-family: 'Amatic SC', cursive;
+}
+h2{
+  font-size: 1.4rem;
+}
+h3{
+  font-size: .8rem;
 }
 div {
 width: 100%;
@@ -31,6 +38,7 @@ height: 100%;
 }
 a{
   font-size: 1.7rem;
+  font-family: 'Fira Mono', monospace;
 }
 
 /* middle section */
@@ -97,7 +105,7 @@ background: linear-gradient(to top, #e1f2fb 50%, #fff5fd 50%);
 }
 .color{
   background: linear-gradient(to top, #fff5fd 75%, #e1f2fb 25%);
-  width: 100%;
+  width: 50%;
   height: 800px;
   float:right;
   text-align: right;
@@ -110,9 +118,8 @@ background: linear-gradient(to top, #e1f2fb 50%, #fff5fd 50%);
   width: 100%;
 }
 .laptop{
-  width: 90%;
-  padding-top: 10%;
-  padding-bottom: 30%;
+  width: 100%;
+  padding: 20% 5% 10% 5%;
 }
 .project{
   width: 800px;
@@ -170,4 +177,17 @@ background: linear-gradient(to top, #e1f2fb 50%, #fff5fd 50%);
   img{
     width: 100%;
   }
+}
+.carousel-inner{
+  position: relative;
+}
+.carouselImg{
+  width: 80%;
+}
+.carousel {
+  width:700px;
+  height:400px;
+}
+.contact{
+  width: 60%;
 }
