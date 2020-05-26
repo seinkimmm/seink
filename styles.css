@@ -174,6 +174,10 @@ background: linear-gradient(to top, #e1f2fb 50%, #fff5fd 50%);
     width: 100%;
     height: 300px;
   }
+  .color{
+    width: 100%;
+    height: 500px;
+  }
   img{
     width: 100%;
   }
@@ -183,9 +187,9 @@ background: linear-gradient(to top, #e1f2fb 50%, #fff5fd 50%);
   .contact{
     width: 100%;;
   }
-  .carousel {
-    width:400px;
-    height:200px;
+  #carouselExampleControls{
+    width: 400px;
+    height: 300px;
   }
 }
 .carousel-inner{
