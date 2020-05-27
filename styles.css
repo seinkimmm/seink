@@ -5,7 +5,6 @@ body {
 .homeImg{
   width: 100%;
   margin-top: -10%;
-
 }
 h1{
   padding-top: 40px;
@@ -16,6 +15,9 @@ h2{
 }
 h3{
   font-size: .8rem;
+}
+h4{
+  font-size: 7rem;
 }
 div {
 width: 100%;
@@ -28,13 +30,26 @@ height: 100%;
 }
 .topContainer{
   width: 100%;
-  background: linear-gradient(to right, #fff5fd 50%, #e1f2fb 50%);
+  height: 100%;
+  display:none;
+  background: linear-gradient(to bottom, white 75%, #fef9b9 25%);
+}
+.homeImage{
+  width: 100%;
+  margin-top: -5%;
+}
+.heart{
+  color: black;
 }
 .navbar{
-  position:absolute;
+  width: 90%;
+  text-align: center;
 }
-.nav-item{
-  margin-right: 20px;
+.homeButton{
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
 }
 a{
   font-size: 1.7rem;
@@ -53,8 +68,7 @@ a{
   display:none;
 }
 #aboutMe{
-  background: linear-gradient(to right, #e1f2fb 50%, yellow 50%);
-  display: none;
+    display:none;
 }
 .middle {
     background: #eee;
@@ -65,46 +79,53 @@ a{
 
 }
 .green{
-    background: #e1f2fb;
+    background: #c5dee0;
     width: 50%;
     height: 700px;
     float:right;
 }
 .purple{
-    background: #e1f2fb;
+    background: #ccd9f0;
     width: 50%;
     height: 600px;
     float:right;
 }
 .blue {
     float: right;
-    background: #e1f2fb;
+    background: #c5dee0;
     width: 50%;
     height: 1500px;
 }
 .yellow {
-  background: #fff5fd;
+  background: #fef9b9;
   display: block;
   width: 50%;
   height: 600px;
   float:left;
 }
 .pink{
-  background: #e1f2fb;
+  background: #ccd9f0;
  display: block;
  width: 50%;
  height: 1400px;
  float:left;
 }
 .red{
-background: linear-gradient(to top, #e1f2fb 50%, #fff5fd 50%);
+background: linear-gradient(to top, #ccd9f0 50%, #fef9b9 50%);
+ display: block;
+ width: 50%;
+ height: 600px;
+ float:left;
+}
+.red1{
+background: linear-gradient(to top, #c5dee0 50%, #fabcaf 50%);
  display: block;
  width: 50%;
  height: 600px;
  float:left;
 }
 .color{
-  background: linear-gradient(to top, #fff5fd 75%, #e1f2fb 25%);
+  background: linear-gradient(to top, #fabcaf 75%, #ccd9f0 25%);
   width: 50%;
   height: 800px;
   float:right;
