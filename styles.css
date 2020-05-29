@@ -153,6 +153,9 @@ background: linear-gradient(to top, #c5dee0 50%, #fabcaf 50%);
   width: 100%;
   padding: 20% 5% 10% 5%;
 }
+.laptop1{
+  width: 100%;
+}
 .project{
   width: 800px;
   height: 550px;
