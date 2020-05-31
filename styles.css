@@ -222,3 +222,10 @@ background: linear-gradient(to top, #c5dee0 50%, #fabcaf 50%);
 .width30{
   height: 40px;
 }
+.codeapp{
+  width: 30%;
+  padding-right: 15px;
+}
+.codeapp1{
+  width: 60%;
+}
