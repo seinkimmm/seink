@@ -155,16 +155,6 @@ a{
     width: 80%;
   }
 }
-.carousel-inner{
-  position: relative;
-}
-.carouselImg{
-  width: 80%;
-}
-.carousel {
-  width:700px;
-  height:400px;
-}
 .contact{
   width: 63%;
 }
@@ -224,4 +214,8 @@ background: linear-gradient(to top, #c5dee0 50%, #fabcaf 50%);
 }
 .standardImg{
   width:100%
+}
+.width50{
+  padding-top: 10%;
+  width: 45%;
 }
