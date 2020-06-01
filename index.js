@@ -21,5 +21,5 @@ $('button').click(function(){
 });
 setTimeout( function(){$('.homeImg').hide();} , 3500);
 setTimeout( function(){$('.topContainer').show();} , 3500);
-setTimeout( function(){$('#aboutMe').show();} , 3800);
-setTimeout( function(){$('#skills').show();} , 3800);
+setTimeout( function(){$('#contact').show();} , 3800);
+setTimeout( function(){$('#mid').show();} , 3800);

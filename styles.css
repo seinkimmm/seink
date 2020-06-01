@@ -3,6 +3,18 @@ body {
   text-align: center;
   font-family: 'Fira Mono', monospace;
 }
+.middle {
+    display:none;
+    background: #eee;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    height: 3000px;
+    float: left;
+    position:relative;
+}
+
+
 .navbar{
   position: absolute;
   text-align: left;
@@ -64,16 +76,6 @@ a{
     display:none;
     background: linear-gradient(to bottom,  #fef9b9 75%, #ccd9f0 25%);
 }
-.middle {
-    background: #eee;
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: center;
-    height: 3000px;
-    float: left;
-    position:relative;
-}
-
 
 .dreamWeb{
   width: 100%;
@@ -94,9 +96,14 @@ a{
   width: 50%;
   height: 100%;
 }
-
 .contact{
   width: 63%;
+}
+#mid{
+  display: none;
+}
+#contact{
+  display: none;
 }
 /* SECTIONS */
 .section1 {
